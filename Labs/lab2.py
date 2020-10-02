@@ -13,20 +13,27 @@ class Types_and_Strings:
         message = input("Enter your noun: ")
         print("Originally entered: "+ message)
 
+
         #
         # Enter your own print statements below:
         #
+        print("he said \"that's fantastic!\"")
 
         # print only first and last of the sentence:
 
-
         # use slice notation:
-
+        print(message[0], message[-1])
 
         # escaping a character:
 
 
         # find all a's in the input word and count how many there are:
+        findA = message.find("a")
+        print(findA)
+
+        countA = message.count("a")
+        print(countA)
+
 
 
         # replace all occurences of the character a with the - sign
@@ -39,13 +46,13 @@ class Types_and_Strings:
         print("Originally entered: "+ message)
 
         # hand the input string to a list and print it out:
-
+        #split()
 
         # append a new element to the list and print:
-
+        #append()
 
         # remove from the list in 3 ways:
-
+        #remove()
 
         # check if the word cake is in your input list:
 
@@ -61,5 +68,5 @@ class Types_and_Strings:
 
 
 tas = Types_and_Strings()
-tas.play_with_strings()
-#tas.play_with_lists()
+#tas.play_with_strings()
+tas.play_with_lists()
